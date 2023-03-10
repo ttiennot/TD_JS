@@ -10,7 +10,8 @@
 </head>
 
 <body>
-    <button id="button">fonction additionne</button>
+    <button id="button">fonction tab 1</button>
+    <button id="button2">fonction tab 2</button>
 </body>
 <script src="main.js"></script>
 <script type="text/javascript">
