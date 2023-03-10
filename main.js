@@ -1,14 +1,12 @@
 maDiv = document.getElementById("button");
 maDiv.addEventListener("click", affiche);
-
-var a = 3;
-var b = 2;
-
-function multiplier(x = 8){
-    return x * 3;
+let tab=[-2, 1, 4];
+// tab.length
+function additionne(x){
+        return x+2; 
 }
+
 function affiche(){
-    alert("fonction avec a :" + multiplier(a));
-    alert("fonction avec b :" + multiplier(b));
-    alert("fonction avec x :" + multiplier());
+    alert("fonction additionne le premier élément :" + additionne(tab[0]));
+    alert("fonction additionne le dernier élément :" + additionne(tab[tab.length - 1]));
 }
