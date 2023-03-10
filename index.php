@@ -14,7 +14,7 @@
 </body>
 <script src="main.js"></script>
 <script type="text/javascript">
-    Click(evenement);
+    calcul(evenement);
 </script>
 
 </html>

@@ -1,10 +1,9 @@
-var maDiv = document.getElementById("button")
-maDiv.addEventListener("click", Click);
+maDiv = document.getElementById("button");
+maDiv.addEventListener("click", calcul);
 
-function Click(evenement) {
-    var longueur = window.prompt('Quelle longueur ?');
-    var largeur = window.prompt('Quelle largeur ?');
-    var aire = longueur * largeur;
-    var perimetre = (largeur + longueur)*2;
+function calcul(evenement) {
+    var longueur = window.prompt('Quel rayon ?');
+    var aire = (longueur * longueur) * Math.PI;
+    var perimetre = (2*(longueur)) * Math.PI;
     alert("aire :"+ aire + "périmètre :" + perimetre);
 }
