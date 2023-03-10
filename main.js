@@ -1,9 +1,14 @@
 maDiv = document.getElementById("button");
-maDiv.addEventListener("click", calcul);
+maDiv.addEventListener("click", affiche);
 
-function calcul(evenement) {
-    var longueur = window.prompt('Quel rayon ?');
-    var aire = (longueur * longueur) * Math.PI;
-    var perimetre = (2*(longueur)) * Math.PI;
-    alert("aire :"+ aire + "périmètre :" + perimetre);
+var a = 3;
+var b = 2;
+
+function multiplier(x = 8){
+    return x * 3;
+}
+function affiche(){
+    alert("fonction avec a :" + multiplier(a));
+    alert("fonction avec b :" + multiplier(b));
+    alert("fonction avec x :" + multiplier());
 }
