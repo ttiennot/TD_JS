@@ -7,7 +7,7 @@
     <title>exo 6</title>
 </head>
 <body>
-    <button id="button">cliquez ici ! jour de la semaine</button>
+    <button onmouseover="this.style.color='red'" onclick="this.style.color='lime'" ondblclick="this.style.color='navy'">coucou</button>
 </body>
 <script src="main.js"></script>
 <script type="text/javascript"></script> 
