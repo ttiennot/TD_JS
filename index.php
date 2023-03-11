@@ -7,8 +7,7 @@
     <title>exo 6</title>
 </head>
 <body>
-    <button id="button">cliquez ici ! (soustrait)</button>
-    <button id="button2">cliquez ici ! (affiche)</button>
+    <button id="button">cliquez ici ! jour de la semaine</button>
 </body>
 <script src="main.js"></script>
 <script type="text/javascript"></script> 
